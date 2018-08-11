@@ -1,2 +1,5 @@
 <h1>Post Name: <%= @post.name %></h1>
 <h2> Post: <%= @post.content %></h2>
+<input action="/posts/<%= @post.id %>/delete" method="delete">
+<input type="delete" id="delete" value="Delete">
+</input>
