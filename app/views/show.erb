@@ -1,6 +1,6 @@
+<h1>Post Name: <%= @post.name %></h1>
+<h2> Post: <%= @post.content %></h2>
 
 <input action="/posts/<%= @post.id %>/delete" method="post">
-    <h1>Post Name: <%= @post.name %></h1>
-    <h2> Post: <%= @post.content %></h2>
     <input type="submit" id="submit" value="delete">
 </input>
