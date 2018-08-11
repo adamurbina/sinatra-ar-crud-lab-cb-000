@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
   post "/posts" do
       @post = Post.create(params)
       @posts = Post.all
-      pry
+      binding.pry
       erb :index
   end
 
